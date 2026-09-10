@@ -1,79 +1,182 @@
-# AGROGO
+<p align="center">
+  <img src="docs/banner.png" alt="AGROGO — from farm to export" width="100%" />
+</p>
 
-Fermerdan eksportgacha — bitta platforma.
+<h1 align="center">AGROGO</h1>
+<p align="center"><b>From farm to export — one platform.</b></p>
 
-## Loyiha strukturasi
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" alt="Drizzle ORM" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+  <img src="https://img.shields.io/badge/i18n-uz%20%7C%20ru%20%7C%20en-1B4332?style=flat-square" alt="i18n" />
+</p>
 
-- `app/[locale]/page.tsx` — `/uz`, `/ru`, `/en` sahifalari va shu tilga mos SEO.
-- `app/layout.tsx`, `app/globals.css` — umumiy maket, Manrope, ranglar, responsive qoidalar va dark mode.
-- `middleware.ts`, `i18n/config.ts` — saqlangan til, brauzer tili, `uz` fallback.
-- `messages/uz.json`, `ru.json`, `en.json` — barcha sarlavha, izoh, tugma, ariza, xato va alt matnlari.
-- `components/header.tsx`, `footer.tsx`, `providers.tsx`, `shared.tsx` — umumiy komponentlar.
-- `components/sections/hero.tsx` — suratli parallax bosh ekran.
-- `components/sections/problem.tsx` — to‘rtta muammo.
-- `components/sections/journey.tsx` — oltita bosqich, GSAP ScrollTrigger.
-- `components/sections/services.tsx` — beshta xizmat va pointer tilt.
-- `components/sections/example.tsx` — bir tonna pomidor va komissiya tushuntirishi.
-- `components/sections/geography.tsx` — hududlar xaritasi va eksport bozorlari.
-- `components/three/export-globe.tsx` — lazy loaded Three.js / React Three Fiber globusi.
-- `components/sections/audience.tsx` — to‘rtta auditoriya tabi.
-- `components/sections/impact.tsx` — ko‘rinishga kirganda sanaydigan raqamlar.
-- `components/sections/join.tsx` — fermer / hamkor qiziqish arizasi.
-- `app/api/leads/route.ts`, `lib/lead-schema.ts`, `db/leads.ts` — server tekshiruvi va arizalarni saqlash.
-- `db/schema.ts`, `drizzle/` — ma’lumotlar tuzilmasi va migratsiya.
-- `data/` — xaritalarning geografik geometriyasi.
-- `public/images/` — foydalanuvchi bergan suratlarning optimallashtirilgan WebP nusxalari.
+<p align="center">
+  <a href="#getting-started"><img src="https://img.shields.io/badge/🚀_Get_Started-1B4332?style=for-the-badge&logoColor=white" alt="Get Started" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/🌐_Live_Demo-F6CB46?style=for-the-badge&logoColor=1B4332" alt="Live Demo" /></a>
+  <a href="#project-structure"><img src="https://img.shields.io/badge/📖_Docs-F7F8F2?style=for-the-badge&logoColor=1B4332" alt="Docs" /></a>
+  <a href="mailto:hello@agrogo.example"><img src="https://img.shields.io/badge/✉️_Contact-1B4332?style=for-the-badge&logoColor=white" alt="Contact" /></a>
+</p>
 
-## Texnologiyalar
+<!--
+  Replace the Live Demo / Contact links above with your real deployment URL
+  and email once available. See docs/IMAGE_PROMPTS.md for how docs/banner.png
+  was generated.
+-->
 
-Next.js 16 App Router API, React 19, TypeScript, Tailwind CSS 4, next-intl, Framer Motion, GSAP ScrollTrigger, Three.js va React Three Fiber. Sites muhiti Next.js App Router kodini Vite/Vinext orqali Cloudflare Workers uchun yig‘adi. D1 arizalarni sessiyalar orasida saqlaydi. Standart loyiha buyruqlari saqlangan.
+---
 
-## Dizayn
+AGROGO is an agro-logistics marketplace that connects farmers with cold-storage warehouses, agricultural machinery owners, packaging services, transport companies, and buyers — all in one place.
 
-To‘q yashil `#1B4332`, krem `#F7F8F2`, hosil sariq `#F6CB46`. Manrope lotin va kirill yozuvlarida. Suratli Hero, keng oraliqlar, turli kompozitsiyadagi bo‘limlar, oddiy chiziqli ikonalar. 375px, 768px, 1024px va 1440px+ ekranlar uchun qoidalar bor. Tungi rejim tanlovi qurilmada saqlanadi.
+After harvest, a farmer has to figure out where to store the crop, how to package it, who can transport it, and who will buy it. At the same time, other regions may have empty warehouses and idle machinery sitting unused. AGROGO brings this supply and demand together on a single digital marketplace, reducing post-harvest loss and making it easier for farmers to reach the market.
 
-## Suratlar
+## Table of Contents
 
-Taqdim etilgan suratlarning tanlanganlari:
+- [How it works](#how-it-works)
+- [Screenshots](#screenshots)
+- [Target users & markets](#target-users--markets)
+- [Revenue model](#revenue-model)
+- [Tech stack](#tech-stack)
+- [Architecture](#architecture)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
+- [Deployment](#deployment)
+- [Status & limitations](#status--limitations)
+- [Resources](#resources)
 
-| Manba fayl oxiri        | Saytdagi vazifasi                   |
-| ----------------------- | ----------------------------------- |
-| `5ednwc5ednwc5edn.jfif` | Hero, fermer va logistika manzarasi |
-| `hi3f9uhi3f9uhi3f.jfif` | Sovutkichli ombor va qadoqlash      |
-| `53k5zt53k5zt53k5.jfif` | Agrotexnika                         |
-| `rpillnrpillnrpil.jfif` | Transport va eksport                |
+## How it works
 
-Qolgan uchta tasvirning katakli foni JFIF ichiga tushgan; ular haqiqiy shaffof fayllar emas. Premium ko‘rinishni saqlash uchun sahifada toza fotosuratlar va interaktiv geografik chizma ishlatiladi. Asl yuklangan fayllar o‘zgartirilmagan.
+```mermaid
+flowchart LR
+    A["🌾 Farmer<br/>harvests crop"] --> B["🧊 Find nearby<br/>cold storage"]
+    B --> C["🚜 Rent machinery<br/>tractors, harvesters"]
+    C --> D["📦 Sorting &<br/>packaging"]
+    D --> E["🚚 Transport &<br/>logistics"]
+    E --> F["🌍 Local & export<br/>buyers"]
 
-## Funksional holat
+    style A fill:#F6CB46,stroke:#1B4332,color:#1B4332
+    style F fill:#1B4332,stroke:#1B4332,color:#fff
+```
 
-- Til URL orqali almashtiriladi; tanlov cookie orqali eslab qolinadi. Birinchi tashrifda Accept-Language tekshiriladi, mos kelmasa o‘zbekcha ochiladi.
-- Xizmat va auditoriya tugmalari formadagi rol/xizmatni; xarita tugmasi hududni tanlaydi.
-- Muvaffaqiyat xabari faqat server arizani saqlagandan so‘ng ko‘rsatiladi. Xatoda kiritilgan qiymatlar formada qoladi.
-- Idempotent ariza identifikatori qayta yuborishda aynan bir arizaning takror yozilishidan saqlaydi.
-- Forma ism, xalqaro telefon, hudud, yo‘nalish va maqsadli rozilikni tekshiradi. Arizalar maxfiy D1 jadvalida; ularni ommaga ko‘rsatadigan endpoint yo‘q.
-- Ro‘yxatdan o‘tish bu bosqichda qiziqish arizasi, yakunlangan hisob ochish yoki xizmat buyurtmasi emas.
-- Ombor/texnika sonlari aniq belgilangan **namuna ma’lumotlari**. Haqiqiy hamkorlar reyestri taqdim etilmagan.
-- Impact raqamlari: 5 xizmat, 4 maqsadli bozor, 1 platforma. Ular erishilgan natijalar yoki tejamkorlik foizlari sifatida berilmagan.
-- 5–15% komissiya foydalanuvchi bergan biznes modelidan olingan; xizmat bo‘yicha aniq tariflar to‘qib chiqarilmagan.
-- Telefon, email va rasmiy ijtimoiy tarmoq manzillari taqdim etilmagan. Bog‘lanish tugmalari ishlaydigan ariza formasiga olib boradi; uydirma tashqi havolalar kiritilmagan.
+## Screenshots
 
-## Animatsiya va samaradorlik
+<table>
+  <tr>
+    <td width="50%"><img src="public/images/hero-farm.webp" width="100%" alt="Hero section — farm and logistics" /><p align="center"><sub>Hero — farm &amp; logistics</sub></p></td>
+    <td width="50%"><img src="public/images/warehouse.webp" width="100%" alt="Cold storage warehouse" /><p align="center"><sub>Cold-storage warehouses</sub></p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="public/images/machinery.webp" width="100%" alt="Agricultural machinery" /><p align="center"><sub>Agricultural machinery</sub></p></td>
+    <td width="50%"><img src="public/images/logistics.webp" width="100%" alt="Transport and export" /><p align="center"><sub>Transport &amp; export</sub></p></td>
+  </tr>
+</table>
 
-Hero parallax, kirishda reveal, scroll progress, xizmatlarda pointer tilt. GSAP pinned bosqich faqat katta va baland ekranlarda ishlaydi; kichik ekranda oddiy ketma-ket tanlash qoladi. React Three Fiber globusi eksport tabi ko‘rinib turgandagina yuklanadi; mobil va reduced-motion holatida statik xarita chiqadi. WebGL xatosi uchun zaxira ko‘rinish bor. DPR cheklangan; offscreen sahna to‘xtaydi. Statik suratlar WebP, rasmlar `next/image` orqali joylashtirilgan, Hero ustuvor yuklanadi.
+## Target users & markets
 
-## Ishga tushirish
+| | |
+| --- | --- |
+| 👨‍🌾 **Farmers** | Small & medium farms, large agro-clusters |
+| 🏭 **Service providers** | Warehouses, machinery owners, packing, transport companies |
+| 📦 **Exporters & buyers** | Local and foreign wholesale buyers |
 
-- `npm install` — bog‘liqliklar.
-- `npm run dev` — mahalliy ishlab chiqish.
-- `npx tsc --noEmit` — TypeScript tekshiruvi.
-- `npm run db:generate` — schema o‘zgarganida yangi Drizzle migratsiyasi.
-- `npm run build` — Cloudflare Workers uchun yig‘ish.
+**Initial export markets:** 🇰🇿 Kazakhstan · 🇷🇺 Russia · 🇰🇬 Kyrgyzstan · 🇦🇪 UAE
 
-Saytning tashqi domeni o‘zgarsa, `app/[locale]/page.tsx`, `app/robots.ts` va `app/sitemap.ts` ichidagi domenni moslang.
+## Revenue model
 
-## Manbalar
+AGROGO takes a **5–15% commission** on each completed transaction — storage, machinery rental, packaging, transport, or export sale — depending on the service type.
 
-Xarita: [Natural Earth public domain geoma’lumotlari](https://www.naturalearthdata.com/about/terms-of-use/), [rasmiy repozitoriy nusxasi](https://github.com/nvkelso/natural-earth-vector).
+## Tech stack
 
-Texnik ma’lumot: [next-intl konfiguratsiyasi](https://next-intl.dev/docs/usage/configuration), [React Three Fiber samaradorligi](https://r3f.docs.pmnd.rs/advanced/scaling-performance), [GSAP matchMedia va reduced motion](https://gsap.com/docs/v3/GSAP/gsap.matchMedia/).
+| Layer | Technology |
+| --- | --- |
+| Frontend | Next.js 16 (App Router), React 19, TypeScript |
+| Styling | Tailwind CSS 4, shadcn/ui, Radix UI |
+| Animation / 3D | Framer Motion, GSAP (ScrollTrigger), Three.js + React Three Fiber |
+| Internationalization | next-intl (`uz`, `ru`, `en`) |
+| Database | Drizzle ORM + Cloudflare D1 (SQLite) |
+| Validation | Zod, React Hook Form |
+| Build / deploy | Vite + [vinext](https://www.npmjs.com/package/vinext) → Cloudflare Workers |
+
+## Architecture
+
+```mermaid
+flowchart TB
+    subgraph Client["Browser"]
+        UI["Next.js 16 App Router UI<br/>React 19 + TypeScript + Tailwind"]
+    end
+    subgraph Build["Build pipeline"]
+        Vite["Vite + vinext adapter"]
+    end
+    subgraph Edge["Cloudflare Edge"]
+        CFW["Cloudflare Workers<br/>(SSR + API routes)"]
+        D1[("Cloudflare D1<br/>SQLite — leads table")]
+    end
+
+    UI -->|npm run build| Vite --> CFW
+    CFW <--> D1
+
+    style D1 fill:#F6CB46,stroke:#1B4332,color:#1B4332
+    style CFW fill:#1B4332,stroke:#1B4332,color:#fff
+```
+
+## Project structure
+
+```
+app/[locale]/            /uz, /ru, /en pages with locale-aware SEO
+app/api/leads/            API route that accepts interest submissions
+app/layout.tsx, globals.css  Shared layout, fonts, colors, dark mode
+middleware.ts, i18n/       Locale detection: cookie → Accept-Language → uz fallback
+messages/                 uz.json, ru.json, en.json — all UI copy
+components/sections/       Landing page sections (hero, problem, journey,
+                           services, example, geography, audience, impact, join)
+components/three/          Lazy-loaded Three.js/R3F export globe
+components/ui/             shadcn/ui-based reusable components
+lib/lead-schema.ts         Zod schema for the interest form
+db/schema.ts, drizzle/     D1 table definition and migrations
+data/                      GeoJSON geometry used by the maps
+scripts/                   Build & environment scripts for Cloudflare/vinext
+public/images/              Optimized WebP images
+```
+
+## Getting started
+
+**Requirements:** Node.js `>=22.13.0`
+
+```bash
+npm install           # install dependencies
+npm run dev            # start local dev server
+npx tsc --noEmit        # type-check
+npm run lint            # run ESLint
+npm run db:generate      # generate a new Drizzle migration after schema changes
+npm run build            # build for Cloudflare Workers
+```
+
+`npm run start` runs the local Cloudflare Workers environment (`wrangler dev` + D1) against the built output, so run `npm run build` first.
+
+If the site's domain changes, update it in `app/[locale]/page.tsx`, `app/robots.ts`, and `app/sitemap.ts`.
+
+## Deployment
+
+The app is built with Vite via the `vinext` adapter and deployed to **Cloudflare Workers**, with **Cloudflare D1** storing submitted leads. There is no separate backend service — SSR and the API route run together at the edge.
+
+## Status & limitations
+
+- The interest form validates name, international phone format, region, service type, and consent on the server; submissions are stored in a private D1 table with no public-facing endpoint.
+- An idempotent lead ID prevents duplicate submissions on retry.
+- Warehouse/machinery counts, the partner registry, and impact numbers shown on the site are currently **sample data** — no live partner network is connected yet.
+- No phone number, email, or official social accounts are published on the site; the only contact path is the interest form.
+
+## Resources
+
+- Map data: [Natural Earth (public domain)](https://www.naturalearthdata.com/about/terms-of-use/)
+- [next-intl configuration](https://next-intl.dev/docs/usage/configuration)
+- [React Three Fiber performance scaling](https://r3f.docs.pmnd.rs/advanced/scaling-performance)
+- [GSAP matchMedia & reduced motion](https://gsap.com/docs/v3/GSAP/gsap.matchMedia/)
+
+---
+
+<p align="center"><sub>Built for smallholder and mid-size farms exporting across Central Asia.</sub></p>
