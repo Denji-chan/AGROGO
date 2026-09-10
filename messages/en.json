@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "title": "AGROGO — From farm to export, one platform",
+    "description": "Find cold storage, agricultural equipment, packing, transport and buyers for your harvest. Your agricultural logistics, connected through AGROGO."
+  },
+  "common": {
+    "start": "Get started",
+    "join": "Join AGROGO",
+    "how": "How it works",
+    "services": "Services",
+    "geography": "Our reach",
+    "audience": "Who it’s for",
+    "contact": "Contact",
+    "learn": "Learn more",
+    "language": "Select language",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "back": "Back to home",
+    "uz": "O‘zbekcha",
+    "ru": "Русский",
+    "en": "English",
+    "select": "Select"
+  },
+  "hero": {
+    "badge": "AGRICULTURAL LOGISTICS FOR UZBEKISTAN",
+    "line1": "From farm",
+    "line2": "to export.",
+    "line3": "One platform.",
+    "description": "Your harvest’s next destination starts here. Find storage, equipment, packing, transport and buyers in one place.",
+    "caption": "Big opportunities. Rooted in the land.",
+    "cardLabel": "YOUR HARVEST’S JOURNEY",
+    "cardFrom": "Your farm",
+    "cardFromSub": "Freshly harvested produce",
+    "cardTo": "New markets",
+    "cardToSub": "Local and international buyers",
+    "imageAlt": "Farmland, a modern warehouse and a truck ready to transport the harvest at sunset"
+  },
+  "ribbon": [
+    "Cold storage",
+    "Farm equipment",
+    "Packing",
+    "Transport",
+    "Export"
+  ],
+  "problem": {
+    "eyebrow": "SOUND FAMILIAR?",
+    "title": "Harvest ready.\nWhat comes next?",
+    "description": "Growing a great harvest is half the work. Storing, delivering and selling it should be simple, too.",
+    "items": [
+      {
+        "title": "Can’t find storage?",
+        "text": "Your harvest can’t wait. But there’s no clear picture of available cold storage nearby."
+      },
+      {
+        "title": "Need equipment?",
+        "text": "Is finding a tractor or harvester taking precious time at the height of the season?"
+      },
+      {
+        "title": "Transport a challenge?",
+        "text": "Need a carrier that can deliver on time and keep your produce at the right temperature?"
+      },
+      {
+        "title": "Where are the buyers?",
+        "text": "Your harvest is export-ready, but the route to a new market is still unclear?"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "HOW IT WORKS",
+    "title": "One harvest.\nConnected possibilities.",
+    "description": "Find the right service at the right time. Connect every stage through one platform.",
+    "hint": "Choose a stage or scroll to explore",
+    "stepLabel": "Stage",
+    "steps": [
+      {
+        "name": "Farmer",
+        "title": "It all starts with you.",
+        "text": "Share your produce type, volume and location. Let’s connect the rest of the chain.",
+        "tag": "01 — HARVEST"
+      },
+      {
+        "name": "AGROGO",
+        "title": "Every route, in one place.",
+        "text": "Explore storage, equipment, packing, transport and buyer offers that match your needs.",
+        "tag": "02 — PLATFORM"
+      },
+      {
+        "name": "Storage / equipment",
+        "title": "The right conditions for your harvest.",
+        "text": "Find storage and farm equipment in your region. Agree on the price and timing.",
+        "tag": "03 — RESOURCES"
+      },
+      {
+        "name": "Packing",
+        "title": "Produce, ready for market.",
+        "text": "Find sorting, grading and packing services to prepare your produce for buyers’ requirements.",
+        "tag": "04 — PREPARATION"
+      },
+      {
+        "name": "Transport",
+        "title": "One step closer to the buyer.",
+        "text": "Choose a carrier to match your cargo, volume and temperature requirements. Agree on delivery terms.",
+        "tag": "05 — DELIVERY"
+      },
+      {
+        "name": "Export",
+        "title": "A wider market for your harvest.",
+        "text": "Connect with local and international buyers. Agree on produce, volume and trade terms directly.",
+        "tag": "06 — NEW MARKETS"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "OUR CONNECTED SERVICES",
+    "title": "Everything your\nharvest needs.",
+    "description": "One service or the whole journey. Choose the support that works for you.",
+    "all": "Become a partner",
+    "request": "Request this service",
+    "items": [
+      {
+        "title": "Cold storage",
+        "text": "Protect your harvest’s quality. Find storage by location, capacity and conditions.",
+        "tag": "FRESHNESS PRESERVED",
+        "alt": "Cold storage warehouse with crates of fresh produce"
+      },
+      {
+        "title": "Farm equipment rental",
+        "text": "Tractors, harvesters and irrigation equipment. The right machinery for the right season.",
+        "tag": "READY FOR THE SEASON",
+        "alt": "Tractor and combine harvester working in a green field"
+      },
+      {
+        "title": "Sorting and packing",
+        "text": "Prepare your harvest for buyers’ requirements, from sorting to finished packaging.",
+        "tag": "READY FOR MARKET",
+        "alt": "Sorted tomatoes in produce crates in a warehouse"
+      },
+      {
+        "title": "Transport and logistics",
+        "text": "From field to storage, from storage to buyer. Find transport that fits your cargo.",
+        "tag": "THE RIGHT ROUTE",
+        "alt": "Truck carrying fresh produce on a road at sunset"
+      },
+      {
+        "title": "Export marketplace",
+        "text": "From local sales to new international markets. Find the next buyer for your harvest.",
+        "tag": "OPPORTUNITY BEYOND BORDERS",
+        "alt": "Farmland and an agricultural logistics centre"
+      }
+    ]
+  },
+  "example": {
+    "eyebrow": "A SIMPLE EXAMPLE",
+    "title": "1 tonne of tomatoes.\nOne clear journey.",
+    "description": "Choose the services you need. Each transaction’s terms are agreed in advance.",
+    "steps": ["Harvest collected", "Storage and packing", "Transport", "Buyer"],
+    "commissionTitle": "Clear from the start",
+    "commission": "5–15%",
+    "commissionText": "Platform commission on each service or export transaction. The exact rate is shown before the deal is agreed.",
+    "note": "An illustrative journey. Storage, transport and sale prices are agreed separately."
+  },
+  "geography": {
+    "eyebrow": "NEARBY RESOURCES. NEW MARKETS.",
+    "title": "Rooted here.\nReaching further.",
+    "description": "Connecting the resources of Uzbekistan’s regions and opening new routes for your harvest.",
+    "local": "Across Uzbekistan",
+    "export": "Export destinations",
+    "mapLabel": "Select a region",
+    "mapAlt": "Map of Uzbekistan with points for Nukus, Khorezm, Bukhara, Samarkand and Tashkent",
+    "demo": "Map figures are sample data. Actual availability has not yet been confirmed.",
+    "warehouse": "warehouses",
+    "equipment": "machines",
+    "regionCta": "Join from this region",
+    "planned": "Target export markets",
+    "globeLabel": "3D globe showing routes from Uzbekistan to target export markets",
+    "regions": ["Nukus", "Khorezm", "Bukhara", "Samarkand", "Tashkent"],
+    "countries": ["Kazakhstan", "Russia", "Kyrgyzstan", "UAE"],
+    "globeFallback": "Connecting Uzbekistan to 4 target export markets."
+  },
+  "audience": {
+    "eyebrow": "GROWING TOGETHER",
+    "title": "Your business.\nOur ecosystem.",
+    "tabs": ["Farmers", "Storage owners", "Equipment owners", "Exporters"],
+    "items": [
+      {
+        "title": "Keep your focus on the harvest.",
+        "text": "Find partners for every other step in one place. From small farms to large agricultural clusters.",
+        "benefits": [
+          "Find services in your region",
+          "Compare offers and terms",
+          "Reach local and international buyers"
+        ],
+        "cta": "Join as a farmer"
+      },
+      {
+        "title": "Empty space. New opportunity.",
+        "text": "Connect your warehouse with farmers looking for a place to store their produce.",
+        "benefits": [
+          "Present your storage conditions",
+          "Find new customers",
+          "Put available capacity to work"
+        ],
+        "cta": "Join as a storage owner"
+      },
+      {
+        "title": "Put your equipment to work.",
+        "text": "Offer machinery to farms that need it and agree on rental terms.",
+        "benefits": [
+          "Connect with regional demand",
+          "Agree on rental periods",
+          "Find seasonal orders"
+        ],
+        "cta": "Join as an equipment owner"
+      },
+      {
+        "title": "Your next order starts in the field.",
+        "text": "Connect with growers of the produce and volumes you need. Plan the supply chain together.",
+        "benefits": [
+          "Connect with growers",
+          "Agree on produce and volume",
+          "Bring packing and transport together"
+        ],
+        "cta": "Join as an exporter"
+      }
+    ]
+  },
+  "impact": {
+    "eyebrow": "OUR SHARED IMPACT",
+    "title": "Less waste.\nMore possibility.",
+    "description": "Our goal is to protect harvests, expand market opportunities for farmers and put existing resources to work.",
+    "stats": [
+      {
+        "value": 5,
+        "suffix": "",
+        "label": "connected services",
+        "text": "A joined-up chain from harvest to sale"
+      },
+      {
+        "value": 4,
+        "suffix": "",
+        "label": "target export markets",
+        "text": "Routes to reach new buyers"
+      },
+      {
+        "value": 1,
+        "suffix": "",
+        "label": "shared platform",
+        "text": "A common space for farmers and partners"
+      }
+    ],
+    "note": "These figures describe the platform’s structure and planned destinations, not achieved economic outcomes."
+  },
+  "join": {
+    "eyebrow": "LET’S TAKE THE NEXT STEP TOGETHER",
+    "title": "Open a new route\nfor your harvest.",
+    "description": "Register your interest in AGROGO. Tell us which service or partnership fits your needs.",
+    "farmer": "I’m a farmer",
+    "partner": "I’m a partner",
+    "name": "Full name",
+    "namePlaceholder": "Enter your name",
+    "phone": "Phone number",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "region": "Your region",
+    "regionPlaceholder": "Select a region",
+    "service": "Area of interest",
+    "servicePlaceholder": "Select a service",
+    "otherRegion": "Other region",
+    "submit": "Register interest",
+    "submitting": "Submitting…",
+    "consent": "I agree to share my details with AGROGO to review my application and contact me about it.",
+    "note": "This is an expression of interest. It does not confirm service availability or a booking.",
+    "successTitle": "Your interest is registered!",
+    "successText": "Your application details have been saved for AGROGO.",
+    "again": "Submit another application",
+    "errors": {
+      "name": "Enter your full name (at least 2 characters).",
+      "phone": "Enter a valid international phone number (+ and 9–15 digits).",
+      "region": "Select a region.",
+      "service": "Select an area of interest.",
+      "consent": "Your consent is required to submit.",
+      "server": "We couldn’t submit your application. Your entries are still in the form. Please try again.",
+      "invalid": "Check your details and submit again."
+    }
+  },
+  "footer": {
+    "tagline": "From farm to export — one platform.",
+    "navigation": "Platform",
+    "cooperate": "Grow with us",
+    "farmer": "Join as a farmer",
+    "partner": "Become a partner",
+    "contactText": "Leave an application to discuss working together.",
+    "copyright": "AGROGO. All rights reserved.",
+    "origin": "From Uzbekistan, towards new possibilities.",
+    "top": "Back to top"
+  },
+  "error": {
+    "title": "We couldn’t load this page",
+    "text": "Please try again. You may need to review any details you entered.",
+    "retry": "Try again",
+    "notFound": "This page could not be found."
+  }
+}

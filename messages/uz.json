@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "title": "AGROGO — Fermerdan eksportgacha, bitta platforma",
+    "description": "Hosilingiz uchun ombor, agrotexnika, qadoqlash, transport va eksport xaridorlarini AGROGO orqali toping. Agro-logistika bir joyda."
+  },
+  "common": {
+    "start": "Boshlash",
+    "join": "Qo‘shilish",
+    "how": "Qanday ishlaydi",
+    "services": "Xizmatlar",
+    "geography": "Geografiya",
+    "audience": "Kimlar uchun",
+    "contact": "Bog‘lanish",
+    "learn": "Batafsil",
+    "language": "Tilni tanlang",
+    "menu": "Menyu",
+    "close": "Yopish",
+    "skip": "Asosiy mazmunga o‘tish",
+    "light": "Yorug‘ rejim",
+    "dark": "Tungi rejim",
+    "back": "Bosh sahifaga",
+    "uz": "O‘zbekcha",
+    "ru": "Русский",
+    "en": "English",
+    "select": "Tanlang"
+  },
+  "hero": {
+    "badge": "O‘ZBEKISTON UCHUN AGRO-LOGISTIKA",
+    "line1": "Fermerdan",
+    "line2": "eksportgacha.",
+    "line3": "Bitta platforma.",
+    "description": "Hosilingizning keyingi manzili shu yerda. Ombor, texnika, qadoqlash, transport va xaridorni bir joydan toping.",
+    "caption": "Yerdan boshlangan katta imkoniyatlar.",
+    "cardLabel": "HOSILINGIZNING YO‘LI",
+    "cardFrom": "Sizning xo‘jaligingiz",
+    "cardFromSub": "Yangi yig‘ilgan hosil",
+    "cardTo": "Yangi bozorlar",
+    "cardToSub": "Mahalliy va xalqaro xaridorlar",
+    "imageAlt": "Quyosh botishida dalalar, zamonaviy ombor va hosil tashishga tayyor yuk mashinasi"
+  },
+  "ribbon": [
+    "Sovutkichli ombor",
+    "Agrotexnika",
+    "Qadoqlash",
+    "Transport",
+    "Eksport"
+  ],
+  "problem": {
+    "eyebrow": "TANISH VAZIYATMI?",
+    "title": "Hosil tayyor.\nKeyingi qadam-chi?",
+    "description": "Yaxshi hosil yetishtirish — ishning yarmi. Uni saqlash, yetkazish va sotish ham oson bo‘lishi kerak.",
+    "items": [
+      {
+        "title": "Ombor topilmayaptimi?",
+        "text": "Hosil kutmaydi. Yaqin atrofdagi bo‘sh sovutkichli ombor haqida esa ma’lumot yo‘q."
+      },
+      {
+        "title": "Texnika kerakmi?",
+        "text": "Mavsum paytida kerakli traktor yoki kombaynni izlash vaqtingizni olyaptimi?"
+      },
+      {
+        "title": "Transport muammomi?",
+        "text": "Mahsulotni vaqtida va kerakli haroratda yetkazadigan transport zarurmi?"
+      },
+      {
+        "title": "Xaridorni qayerdan topish?",
+        "text": "Eksportga tayyor hosilingiz bor. Lekin yangi bozorga chiqish yo‘li noaniqmi?"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "QANDAY ISHLAYDI",
+    "title": "Bitta hosil.\nBog‘langan imkoniyatlar.",
+    "description": "Kerakli xizmatni kerakli vaqtda toping. Har bir bosqichni bitta platforma orqali bog‘lang.",
+    "hint": "Bosqichni tanlang yoki pastga aylantiring",
+    "stepLabel": "Bosqich",
+    "steps": [
+      {
+        "name": "Fermer",
+        "title": "Hammasi sizdan boshlanadi.",
+        "text": "Mahsulot turi, hajmi va joylashuvini belgilang. Qolgan zanjirni birgalikda bog‘laymiz.",
+        "tag": "01 — HOSIL"
+      },
+      {
+        "name": "AGROGO",
+        "title": "Barcha yo‘llar bir joyda.",
+        "text": "Ombor, texnika, qadoqlash, transport va bozor takliflarini ehtiyojingizga mos ravishda ko‘ring.",
+        "tag": "02 — PLATFORMA"
+      },
+      {
+        "name": "Ombor / texnika",
+        "title": "Hosilingiz uchun sharoit.",
+        "text": "Hududingizdagi saqlash imkoniyatlari va kerakli agrotexnikani toping. Narx va muddatni kelishing.",
+        "tag": "03 — RESURSLAR"
+      },
+      {
+        "name": "Qadoqlash",
+        "title": "Sotuvga tayyor mahsulot.",
+        "text": "Saralash, kalibrlash va qadoqlash xizmatlarini topib, mahsulotingizni xaridor talabiga tayyorlang.",
+        "tag": "04 — TAYYORLASH"
+      },
+      {
+        "name": "Transport",
+        "title": "Manzilga bir qadam yaqin.",
+        "text": "Yuk turi, hajmi va harorat talabiga mos tashuvchini tanlang, yetkazish shartlarini kelishing.",
+        "tag": "05 — YETKAZISH"
+      },
+      {
+        "name": "Eksport",
+        "title": "Hosilingizga kengroq bozor.",
+        "text": "Mahalliy va xorijiy xaridorlar bilan bog‘laning. Mahsulot, hajm va savdo shartlarini to‘g‘ridan-to‘g‘ri kelishing.",
+        "tag": "06 — YANGI BOZOR"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "EKOTIZIM XIZMATLARI",
+    "title": "Hosilingiz uchun\nhamma narsa.",
+    "description": "Bitta ehtiyoj yoki butun zanjir. Sizga kerakli xizmatlarni tanlang.",
+    "all": "Hamkor bo‘lish",
+    "request": "Xizmatga ariza",
+    "items": [
+      {
+        "title": "Sovutkichli ombor",
+        "text": "Hosilning sifatini asrang. Hudud, sig‘im va saqlash sharoitiga mos omborni toping.",
+        "tag": "SIFATLI SAQLASH",
+        "alt": "Yangi mahsulot qutilari joylashtirilgan sovutkichli ombor"
+      },
+      {
+        "title": "Agrotexnika ijarasi",
+        "text": "Traktor, kombayn va sug‘orish uskunalari. Kerakli texnika — kerakli mavsumda.",
+        "tag": "MAVSUMGA TAYYOR",
+        "alt": "Yashil dalada ishlayotgan traktor va kombayn"
+      },
+      {
+        "title": "Saralash va qadoqlash",
+        "text": "Hosilni xaridor talabiga tayyorlang. Saralashdan tayyor qadoqqacha.",
+        "tag": "BOZORGA TAYYOR",
+        "alt": "Omborda saralangan pomidorlar va mahsulot qutilari"
+      },
+      {
+        "title": "Transport va logistika",
+        "text": "Daladan omborga, ombordan xaridorgacha. Yukingizga mos transportni tanlang.",
+        "tag": "ISHONCHLI YO‘NALISH",
+        "alt": "Quyosh botishida yangi mahsulotlarni tashiyotgan yuk mashinasi"
+      },
+      {
+        "title": "Eksport marketplace",
+        "text": "Mahalliy savdodan yangi xalqaro bozorlargacha. Hosilingizga xaridor toping.",
+        "tag": "CHEGARASIZ IMKONIYAT",
+        "alt": "Dalalar va agro-logistika markazi"
+      }
+    ]
+  },
+  "example": {
+    "eyebrow": "ODDIY MISOL",
+    "title": "1 tonna pomidor.\nBitta tushunarli yo‘l.",
+    "description": "Kerakli xizmatlarni alohida tanlaysiz. Har bir bitim shartlari oldindan kelishiladi.",
+    "steps": ["Hosil yig‘ildi", "Saqlash va qadoqlash", "Transport", "Xaridor"],
+    "commissionTitle": "Ochiq hisob-kitob",
+    "commission": "5–15%",
+    "commissionText": "Xizmat va eksport savdosi bo‘yicha har bir bitim uchun platforma komissiyasi. Aniq stavka bitimdan oldin ko‘rsatiladi.",
+    "note": "Illustrativ jarayon. Saqlash, tashish va savdo narxlari alohida kelishiladi."
+  },
+  "geography": {
+    "eyebrow": "YAQINDAGI RESURSLAR. YANGI BOZORLAR.",
+    "title": "Ildizimiz shu yerda.\nYo‘limiz dunyo bo‘ylab.",
+    "description": "O‘zbekiston hududlaridagi imkoniyatlarni bog‘lab, hosilingiz uchun yangi yo‘nalishlar ochamiz.",
+    "local": "O‘zbekiston bo‘ylab",
+    "export": "Eksport yo‘nalishlari",
+    "mapLabel": "Hududni tanlang",
+    "mapAlt": "O‘zbekiston xaritasi, Nukus, Xorazm, Buxoro, Samarqand va Toshkent nuqtalari bilan",
+    "demo": "Xaritadagi sonlar — namuna ma’lumotlari. Haqiqiy mavjudlik hali tasdiqlanmagan.",
+    "warehouse": "ombor",
+    "equipment": "texnika",
+    "regionCta": "Shu hududdan qo‘shilish",
+    "planned": "Maqsadli eksport bozorlari",
+    "globeLabel": "O‘zbekistondan maqsadli bozorlarga yo‘nalishlarni ko‘rsatuvchi 3D globus",
+    "regions": ["Nukus", "Xorazm", "Buxoro", "Samarqand", "Toshkent"],
+    "countries": ["Qozog‘iston", "Rossiya", "Qirg‘iziston", "BAA"],
+    "globeFallback": "O‘zbekistonni 4 ta maqsadli eksport bozori bilan bog‘laymiz."
+  },
+  "audience": {
+    "eyebrow": "BIRGA O‘SISH UCHUN",
+    "title": "Sizning ishingiz.\nBizning ekotizim.",
+    "tabs": ["Fermerlar", "Ombor egalari", "Texnika egalari", "Eksportchilar"],
+    "items": [
+      {
+        "title": "Siz hosilga e’tibor qarating.",
+        "text": "Qolgan bosqichlar uchun kerakli hamkorlarni bir joydan toping. Kichik xo‘jalikdan yirik agroklastergacha.",
+        "benefits": [
+          "Hududingizga mos xizmatlarni topish",
+          "Taklif va shartlarni solishtirish",
+          "Mahalliy va xalqaro xaridorlarga chiqish"
+        ],
+        "cta": "Fermer sifatida qo‘shilish"
+      },
+      {
+        "title": "Bo‘sh joy — yangi imkoniyat.",
+        "text": "Omboringizni mahsulotini saqlashga joy izlayotgan fermerlar bilan bog‘lang.",
+        "benefits": [
+          "Saqlash sharoitlarini taqdim etish",
+          "Yangi mijozlarni topish",
+          "Bo‘sh sig‘imdan foydalanishni oshirish"
+        ],
+        "cta": "Ombor egasi sifatida qo‘shilish"
+      },
+      {
+        "title": "Texnikangiz ko‘proq ishlasin.",
+        "text": "Texnikangizni unga ehtiyoji bor xo‘jaliklarga taklif qiling va ijara shartlarini kelishing.",
+        "benefits": [
+          "Hududiy talab bilan bog‘lanish",
+          "Ijara muddatlarini kelishish",
+          "Mavsumiy buyurtmalarni topish"
+        ],
+        "cta": "Texnika egasi sifatida qo‘shilish"
+      },
+      {
+        "title": "Keyingi xaridingiz daladan boshlanadi.",
+        "text": "Kerakli mahsulot va hajmni yetishtiruvchilar bilan bog‘laning, savdo zanjirini rejalashtiring.",
+        "benefits": [
+          "Yetishtiruvchilar bilan aloqa",
+          "Mahsulot va hajmni kelishish",
+          "Qadoqlash va tashishni birlashtirish"
+        ],
+        "cta": "Eksportchi sifatida qo‘shilish"
+      }
+    ]
+  },
+  "impact": {
+    "eyebrow": "BIRGALIKDAGI TA’SIR",
+    "title": "Kamroq yo‘qotish.\nKo‘proq imkoniyat.",
+    "description": "Maqsadimiz — hosilni asrash, fermer uchun bozor imkoniyatlarini kengaytirish va mavjud resurslarni ishga solish.",
+    "stats": [
+      {
+        "value": 5,
+        "suffix": "",
+        "label": "xizmat turi",
+        "text": "Hosildan savdogacha bog‘langan zanjir"
+      },
+      {
+        "value": 4,
+        "suffix": "",
+        "label": "maqsadli eksport bozori",
+        "text": "Yangi xaridorlarga chiqish yo‘nalishlari"
+      },
+      {
+        "value": 1,
+        "suffix": "",
+        "label": "yagona platforma",
+        "text": "Fermerlar va hamkorlar uchun umumiy maydon"
+      }
+    ],
+    "note": "Bu raqamlar platforma tuzilmasi va rejalashtirilgan yo‘nalishlarni bildiradi; erishilgan iqtisodiy natijalar emas."
+  },
+  "join": {
+    "eyebrow": "KEYINGI QADAMNI BIRGA BOSAMIZ",
+    "title": "Hosilingizga\nyangi yo‘l oching.",
+    "description": "AGROGO’ga qiziqish bildiring. Sizga mos xizmat yoki hamkorlik yo‘nalishini ko‘rsating.",
+    "farmer": "Men fermerman",
+    "partner": "Men hamkorman",
+    "name": "Ism va familiya",
+    "namePlaceholder": "Ismingizni kiriting",
+    "phone": "Telefon raqami",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "region": "Hududingiz",
+    "regionPlaceholder": "Hududni tanlang",
+    "service": "Qiziqish yo‘nalishi",
+    "servicePlaceholder": "Xizmatni tanlang",
+    "otherRegion": "Boshqa hudud",
+    "submit": "Ariza qoldirish",
+    "submitting": "Yuborilmoqda…",
+    "consent": "Ma’lumotlarim AGROGO’ga arizamni ko‘rib chiqish va men bilan bog‘lanish uchun taqdim etilishiga roziman.",
+    "note": "Bu qiziqish arizasi. Ro‘yxatdan o‘tish xizmat mavjudligini yoki buyurtmani tasdiqlamaydi.",
+    "successTitle": "Arizangiz qabul qilindi!",
+    "successText": "Qiziqishingiz qayd etildi. Ariza ma’lumotlari AGROGO uchun saqlandi.",
+    "again": "Yana ariza qoldirish",
+    "errors": {
+      "name": "Ism va familiyani kiriting (kamida 2 belgi).",
+      "phone": "To‘g‘ri xalqaro telefon raqamini kiriting (+ va 9–15 raqam).",
+      "region": "Hududni tanlang.",
+      "service": "Qiziqish yo‘nalishini tanlang.",
+      "consent": "Ariza yuborish uchun roziligingiz kerak.",
+      "server": "Ariza yuborilmadi. Kiritgan ma’lumotlaringiz formada qoldi, qayta urinib ko‘ring.",
+      "invalid": "Ma’lumotlarni tekshiring va qayta yuboring."
+    }
+  },
+  "footer": {
+    "tagline": "Fermerdan eksportgacha — bitta platforma.",
+    "navigation": "Platforma",
+    "cooperate": "Birga ishlaymiz",
+    "farmer": "Fermer bo‘lish",
+    "partner": "Hamkor bo‘lish",
+    "contactText": "Hamkorlik uchun ariza qoldiring.",
+    "copyright": "AGROGO. Barcha huquqlar himoyalangan.",
+    "origin": "O‘zbekistondan, yangi imkoniyatlar sari.",
+    "top": "Yuqoriga"
+  },
+  "error": {
+    "title": "Sahifani ochib bo‘lmadi",
+    "text": "Qayta urinib ko‘ring. Kiritgan ma’lumotlaringizni qayta tekshirish talab qilinishi mumkin.",
+    "retry": "Qayta urinish",
+    "notFound": "Bu sahifa topilmadi."
+  }
+}
