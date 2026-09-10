@@ -1,5 +1,7 @@
 import { leadSchema } from "@/lib/lead-schema";
-import { leadsDatabase } from "@/db/leads";
+import { saveLead } from "@/db/leads";
+
+export const runtime = "nodejs";
 export async function POST(request: Request) {
   const headers = { "Cache-Control": "no-store" };
   if (!request.headers.get("content-type")?.includes("application/json"))
@@ -21,22 +23,7 @@ export async function POST(request: Request) {
     if (!parsed.success)
       return Response.json({ error: "invalid" }, { status: 400, headers });
     const d = parsed.data;
-    await leadsDatabase()
-      .prepare(
-        "INSERT INTO agrogo_leads (id,name,phone,region,service,role,locale,consent,created_at) VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO NOTHING",
-      )
-      .bind(
-        d.id,
-        d.name,
-        d.phone,
-        d.region,
-        d.service,
-        d.role,
-        d.locale,
-        1,
-        new Date().toISOString(),
-      )
-      .run();
+    await saveLead(d);
     return Response.json({ success: true }, { status: 201, headers });
   } catch (error) {
     console.error(
